@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>Noel Soler<title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+ <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            cursor: crosshair;
+}
+        canvas {
+            display: block;
+}
+     h1{
+         position: absolute;
+         top:2rem;
+             left: 3rem;
+             z-index:2;
+             
+     }
+     p{
+         position: absolute;
+         width: 50vw;
+         top: 6rem;
+             left: 3rem;
+             z-index:2;
+             }
+</style>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <main>
+        <h1>Hola mundo!</h1>
+        <p>Me metí a este ramo, porque quería acercarme al mundo del desarrollo web, ya que creo que es algo interesante y te abre muchas oportunidades. </p>
+    </main>
+    <script>
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            background(000,300,000);
+}
+        function draw() {
+            line(pmouseX, pmouseY, mouseX, mouseY);
+}
+      </script>
+  </body>
+</html>
+
